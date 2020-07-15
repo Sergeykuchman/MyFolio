@@ -114,9 +114,10 @@ p {
     opacity: 60%;
 }
 
-.content-header{
+.content-header {
     margin-bottom: 3.1rem;
 }
+
 .title {
     margin-bottom: 10px;
     font-size: 1.9rem;
@@ -178,10 +179,11 @@ p {
 
 /*contacts*/
 /*==================================*/
-.contacts{
+.contacts {
     display: flex;
     align-items: center;
 }
+
 .contact-link {
     color: white;
     font-size: 1rem;
@@ -191,22 +193,22 @@ p {
     margin-right: 2rem;
 }
 
-.contact-link:last-child{
+.contact-link:last-child {
     margin-right: 0;
     position: relative;
 }
 
-.contact-link:last-child:after{
+.contact-link:last-child:after {
     content: "";
     position: absolute;
     display: block;
 
     background-color: white;
 
-    width:5rem;
+    width: 5rem;
     height: 2px;
     top: 50%;
-    left:  100%;
+    left: 100%;
     margin-left: 2rem;
 
     pointer-events: none;
@@ -214,28 +216,32 @@ p {
 
 }
 
-.contact-link:hover{
+.contact-link:hover {
     text-decoration: underline;
 }
 
-.contakts-icon{
+.contakts-icon {
     padding-right: 0.3rem;
 }
 
 /*=================form===============*/
 
-.form{
+.form {
     width: 100%;
     max-width: 280px;
 }
 
-.input{
+.input {
     display: block;
     width: 100%;
+    padding: 12px 18px;
 
     font-family: inherit;
     font-size: 1rem;
+    color: #fff;
 
+    border: 0;
+    border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
 
 

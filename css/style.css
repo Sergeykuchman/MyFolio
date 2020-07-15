@@ -144,10 +144,13 @@ p {
 
     background-color: #2B7DED;
     border-radius: 6px;
+    border: none;
 
+    cursor: pointer;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
+    font-family: inherit;
     color: white;
     line-height: 1.1;
     transition: background-color 0.2s linear;
@@ -243,14 +246,26 @@ p {
     border: 0;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
-
-
 }
 
+.input::placeholder {
+    color: white;
+}
 
+.form-group {
+    margin-bottom: 20px;
+}
 
+textarea {
+    height: 100px;
+    resize: none;
+}
 
+.btn-full {
 
+    display: block;
+    width: 100%
+}
 
 
 
